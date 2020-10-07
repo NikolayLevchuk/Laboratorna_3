@@ -19,7 +19,7 @@ namespace ConsoleApplication15
         {
             string str;
             int i;
-            Console.WriteLine("Введите четырехзначное число образующее строго возрастную последовательность");
+            Console.WriteLine("Введите трехзначное число образующее строго возрастную последовательность");
             str = Console.ReadLine();
             if (str[0] < str[1] && str[1] < str[2] )
                 Console.WriteLine("true");
